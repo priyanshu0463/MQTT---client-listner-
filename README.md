@@ -9,12 +9,22 @@ Before running this script, ensure that you have the necessary dependencies inst
 ```bash
 pip install paho-mqtt
 
+To Run and Test
 
-## To run and test 
+    Open a terminal and run the MQTT listener:
 
-```bash
-python3 listner.py
-```bash
+    bash
+
+python3 listener.py
+
+Open another terminal and run the MQTT script:
+
+bash
+
 python3 mqtt.py
-```bash
-mosquitto_pub -t notification_topic -m '{"message": "your_message"}' 
+
+To test the MQTT communication, open a new terminal and publish a message to the "notification_topic" using mosquitto_pub:
+
+bash
+
+mosquitto_pub -t notification_topic -m '{"message": "your_message"}'
