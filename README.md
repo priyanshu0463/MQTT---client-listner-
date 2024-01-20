@@ -13,7 +13,7 @@ pip install paho-mqtt
 # How to Run and Test
 
 
-    Open a terminal and run the MQTT listener:
+Open a terminal and run the MQTT listener:
 
 
 ```bash
@@ -21,7 +21,7 @@ python3 listener.py
 ```
 
 
-    Open another terminal and run the MQTT script:
+Open another terminal and run the MQTT script:
 
 
  ```bash
@@ -29,7 +29,7 @@ python3 mqtt.py
 ```
 
 
-    To test the MQTT communication, open a new terminal and publish a message to the "notification_topic" using mosquitto_pub:
+To test the MQTT communication, open a new terminal and publish a message to the "notification_topic" using mosquitto_pub:
 
 
 ```bash
@@ -37,4 +37,4 @@ python3 mqtt.py
 ```
 
 
-    Ensure that you replace "your_message" with the actual message you want to send.
+ Ensure that you replace "your_message" with the actual message you want to send.
