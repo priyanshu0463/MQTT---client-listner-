@@ -33,7 +33,7 @@ To test the MQTT communication, open a new terminal and publish a message to the
 
 
 ```bash
-    mosquitto_pub -t notification_topic -m '{"message": "your_message"}'
+mosquitto_pub -t notification_topic -m '{"message": "your_message"}'
 ```
 
 
