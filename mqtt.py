@@ -25,7 +25,7 @@ def start_mqtt_listener():
 
     client.connect("localhost", 1883, 60)
 
-    client.loop_forever()  #client_loop_start() if using in django
+    client.loop_forever()  #client.loop_start() if using in django
 
 if __name__ == "__main__":
     start_mqtt_listener()
