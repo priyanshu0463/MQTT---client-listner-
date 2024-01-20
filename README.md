@@ -8,3 +8,13 @@ Before running this script, ensure that you have the necessary dependencies inst
 
 ```bash
 pip install paho-mqtt
+
+
+## To run and test 
+
+```bash
+python3 listner.py
+```bash
+python3 mqtt.py
+```bash
+mosquitto_pub -t notification_topic -m '{"message": "your_message"}' 
